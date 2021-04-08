@@ -17,7 +17,8 @@ export default class ChooseUser extends React.Component{
                       <div className = "col-md-6 mt-5">
                          <Link to = "/login" className = "link-no-style"> <div className = "content-div usertype-content">
                               <div className = "usertype-img">
-                              <img src = {require('../../../assets/images/boy.png')} />
+                                  <img src ='/assets/images/boy.png'/> 
+                              {/* <img src = {require('../../../assets/images/boy.png')} /> */}
                               </div>
                               <div className = "p-4">
                               <h3 className = "text-center">General User</h3>
@@ -27,7 +28,8 @@ export default class ChooseUser extends React.Component{
                       <div className = "col-md-6 mt-5">
                       <Link to = "/vendroslogin" className = "link-no-style">  <div className = "content-div usertype-content">
                           <div className = "usertype-img ">
-                              <img src = {require('../../../assets/images/rich.png')} />
+                          <img src ='/assets/images/rich.png'/> 
+                              {/* <img src = {require('../../../assets/images/rich.png')} /> */}
                               </div>
                               <div class = "p-4">
                               <h3 className = "text-center">Vendor</h3>

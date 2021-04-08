@@ -171,7 +171,8 @@ e.preventDefault();
                                             
                                                  
                                             <h1 className = "title">
-                                        <img src = {require('../../../assets/images/weblogo.png')} className = "logo"/> 
+                                            <img src ='/assets/images/weblogo.png' className = "logo"/> 
+                                        {/* <img src = {require('../../../assets/images/weblogo.png')} className = "logo"/>  */}
                                         </h1>
                                             </a>
                                         <button className="navbar-toggler collapsed" onClick = {this.toggleCollapse.bind(this)} type="button" data-toggle="collapse" data-target="#navbar-classNameic" aria-controls="navbar-classNameic" aria-expanded="false" aria-label="Toggle navigation">

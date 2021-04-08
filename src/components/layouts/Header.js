@@ -30,7 +30,7 @@ class Header extends React.Component{
                             <div className = "col-xl-9 col-lg-8 col-md-12 col-sm-12 col-12">
                                 
                                 <h1 className = "title">
-                                        <img src = {require('../../assets/images/weblogo.png')} className = "logo"/> 
+                                        <img src ='/assets/images/weblogo.png' className = "logo"/> 
                                         </h1>
                             </div>
                             <div className = "col-xl-3 col-lg-4 d-sm-none d-none d-md-none d-lg-block    ">

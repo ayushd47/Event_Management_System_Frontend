@@ -280,7 +280,8 @@ export default class Signup extends React.Component{
                                </div>
                            </div>
                            <div className = "col-md-6 col-12 col-sm-12 d-md-block d-none">
-                       <img src = {require('../../../../assets/images/signup-image.jpg')} className = "login-img mt-4"/>
+                           <img src ='/assets/images/signup-image.jpg' className = "login-img mt-4"/> 
+                       {/* <img src = {require('../../../../assets/images/signup-image.jpg')} className = "login-img mt-4"/> */}
                            </div>
                </div>
                         </div>

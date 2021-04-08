@@ -107,7 +107,8 @@ constructor(props){
                         <div className  = "row">
                     
                        <div className = "col-md-6 col-12 col-sm-12 d-md-block d-none">
-                       <img src = {require('../../../../assets/images/signin-image.jpg')} className = "login-img mt-4"/>
+                       <img src ='/assets/images/signin-image.jpg' className = "login-img mt-4"/> 
+                       {/* <img src = {require('../../../../assets/images/signin-image.jpg')} className = "login-img mt-4"/> */}
                            </div>
                            <div className = "col-md-6  col-12 col-sm-12">
                                <div className = "login-form">

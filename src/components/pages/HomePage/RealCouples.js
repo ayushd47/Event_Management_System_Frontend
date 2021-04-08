@@ -14,7 +14,8 @@ export default class RealCouples extends React.Component{
                         <div className = "col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mt-3">
                             <div className = "married-couples-box">
                                     <div className = "married-couples-img">
-                                        <img src = {require('../../../assets/images/married3.png')} className = "venues-img" />
+                                    <img src ='/assets/images/married3.png' className = "venues-img"/> 
+                                        {/* <img src = {require('../../../assets/images/married3.png')} className = "venues-img" /> */}
                                     </div>
                                     <div className = "married-couples-details">
                                         <h4>Ram  &  Sita</h4>
@@ -27,7 +28,8 @@ export default class RealCouples extends React.Component{
                         <div className = "col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mt-3">
                                 <div className = "married-couples-box">
                                         <div className = "married-couples-img">
-                                        <img src = {require('../../../assets/images/married1.jpg')} className = "venues-img" />
+                                        <img src ='/assets/images/married2.jpg' className = "venues-img"/> 
+                                        {/* <img src = {require('../../../assets/images/married1.jpg')} className = "venues-img" /> */}
                                         </div>
                                         <div className = "married-couples-details">
                                             <h4>Hari  &  Laxmi</h4>
@@ -40,7 +42,8 @@ export default class RealCouples extends React.Component{
                             <div className = "col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mt-3">
                                     <div className = "married-couples-box">
                                             <div className = "married-couples-img">
-                                                <img src = {require('../../../assets/images/married2.jpg')} className = "venues-img" />
+                                            <img src ='/assets/images/married1.jpg' className = "venues-img"/> 
+                                                {/* <img src = {require('../../../assets/images/married2.jpg')} className = "venues-img" /> */}
                                             </div>
                                             <div className = "married-couples-details">
                                                 <h4>Sam  &  Gita</h4>
